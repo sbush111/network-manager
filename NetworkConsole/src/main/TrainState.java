@@ -12,13 +12,13 @@ public class TrainState implements State {
 	
 	public void run(Main main) {
 		
-		System.out.println("Enter number of epochs (Default - 10):");
+		System.out.println("Enter number of epochs (Default - 30):");
 		int numEpochs = main.scanner.nextInt();
 		
-		System.out.println("Enter batch size (Default - 100):");
+		System.out.println("Enter batch size (Default - 20):");
 		int batchSize = main.scanner.nextInt();
 		
-		System.out.println("Enter learning rate (Default - 0.005):");
+		System.out.println("Enter learning rate (Default - 3.0):");
 		double learningRate = main.scanner.nextDouble();
 		
 		System.out.println("Training in progress...");
