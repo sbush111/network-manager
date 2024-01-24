@@ -19,7 +19,7 @@ public class HelpState implements State {
 		System.out.println("info2: print the weights and biases of the loaded netork");
 		System.out.println("train: train the loaded neural network");
 		System.out.println("test: test the loaded neural network");
-		System.out.println("eval: evaluate a particular image with the network");
+		System.out.println("eval: load ten examples from the dataset and the network's evaluation of them.");
 		System.out.println("save: save the currently loaded network to file");
 		System.out.println("delete: delete a network");
 		System.out.println("quit: quit the program");
